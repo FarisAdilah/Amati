@@ -17,7 +17,7 @@
             android:theme="@style/Theme.Amati" />
         <activity
             android:name=".ui.course.CourseListActivity"
-            android:exported="false" 
+            android:exported="false"
             android:theme="@style/Theme.Amati" />
         <activity
             android:name=".ui.register.RegisterActivity"

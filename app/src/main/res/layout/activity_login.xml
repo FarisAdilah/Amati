@@ -148,13 +148,13 @@
             android:id="@+id/tv_no_account"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
+            android:layout_marginEnd="16dp"
             android:text="@string/no_account"
             android:textColor="@color/green_army"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/btn_register"
-            app:layout_constraintTop_toTopOf="@+id/btn_register"
-            app:layout_constraintStart_toStartOf="@+id/btn_google_login"/>
+            app:layout_constraintEnd_toStartOf="@+id/btn_register"
+            app:layout_constraintTop_toTopOf="@+id/btn_register" />
 
         <TextView
             android:id="@+id/tv_or"

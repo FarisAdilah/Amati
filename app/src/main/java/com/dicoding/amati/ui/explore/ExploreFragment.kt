@@ -23,7 +23,7 @@ class ExploreFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val exploreViewModel =
-            ViewModelProvider(this).get(ExploreViewModel::class.java)
+            ViewModelProvider(this)[ExploreViewModel::class.java]
 
         _binding = FragmentExploreBinding.inflate(inflater, container, false)
         val root: View = binding.root
